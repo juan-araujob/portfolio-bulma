@@ -1,0 +1,58 @@
+.section{
+    padding-top: 100px;
+}
+.card{
+    margin-bottom: 20px;
+}
+
+.column-f{
+    display: flex;
+    align-items:center;
+}
+
+@media (max-width: 1024px){
+
+.section{
+    padding-top: 150px;
+}
+
+}
+
+body{
+  background-color: black;
+}
+
+.card{
+  background-color: #111;
+  color: white;
+}
+
+.title{
+  color: white;
+}
+
+.card-header-title{
+  color: white;
+}
+
+.label{
+  color: white;  
+}
+
+.tag:not(body).is-black {
+    background-color: #ff1208;
+    color: #fff;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+}
+
+hr{
+  background-color: #222;
+}
+
+strong{
+  color: white;
+}
